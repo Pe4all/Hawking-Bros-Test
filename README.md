@@ -3,7 +3,7 @@
 
 Форма с валидацией полей, кнопка Next выводит в alert json объект, кнопка Cancel сбрасывает поля формы
 
-# Стэк
+## Стэк
 
 React + Redux + TypeScript + Vite
 
