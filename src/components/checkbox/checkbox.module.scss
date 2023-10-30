@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../../../public/fonts/NotoSans.woff2);
+}
+
+.formItem {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.formItem input {
+  display: none;
+}
+
+.formItemCheckbox {
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.formItemCheckbox::before {
+  content: url(../../../public/icons/checked.svg);
+  display: none;
+  transform: translateY(4px);
+}
+
+.formItem input:checked + .formItemCheckbox::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formItemText {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}

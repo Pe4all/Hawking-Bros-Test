@@ -1,0 +1,58 @@
+body {
+  background-color: #e4defe;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.container {
+  width: 760px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 66px 98px 92px 98px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.buttonRow{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 759px) {
+  .container{
+    width: 100vw;
+  }
+  .buttonRow{
+    flex-direction: column;
+  }
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 458px) {
+  .container{
+    width: 100vw;
+  }
+  .buttonRow{
+    flex-direction: column;
+  }
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url(../../../public/fonts/NotoSans.woff2);
+  }
+
+  @font-face{
+    font-family: 'Noto Sans SemiBold';
+    src: url(../../../public/fonts/NotoSans-SemiBold.woff2);
+  }
+  
+  .formItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .formItemLabel{
+    margin-bottom: 8px;
+    font-family: "Noto Sans SemiBold";
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #666666;
+  }
+
+  .dropdownListItem{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    position: relative;
+    top: -2px;
+  }
+
+  .currentItem{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background: url('../../../public/icons/arrowRotated.svg') no-repeat right;
+    background-position: 96.5%; 
+    border: 2px solid #7A5CFA;
+    border: 1px solid #ccc;
+    border-radius: 8px 8px 0px 0px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .menu span{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 56px;
+    box-sizing: border-box;
+  }
+  
+  .menu.open {
+    background: url('../../../public/icons/arrow.svg') no-repeat right;
+    background-position: 96.5%; 
+    display: block;
+    height: 56px;
+    border: 2px solid #7A5CFA;
+  }
+
+  .menu.open span{
+    padding-left: 14px;
+    padding-bottom: 4px;
+  }
+  
+  .menu li {
+    display: none;
+    background: #FFFFFF;
+  
+  }
+  
+  .menu.open li {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 56px;
+    border: 1px solid #CCCCCC;
+    border-bottom: none;
+  }
+  
+  .menu.open li:hover{
+    background: #7A5CFA;
+    color: white;
+  }
+  
+  .menu.open li:last-child{
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #CCCCCC;
+  }
+
+  .customDropdown {
+    position: relative;
+    vertical-align: middle;
+  }

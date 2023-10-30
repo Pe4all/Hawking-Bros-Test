@@ -1,0 +1,33 @@
+.formItem{
+    margin-bottom: 32px;
+}
+
+.formItemButton{
+    height: 56px;
+    width: 172px;
+    border-radius: 8px;
+    border: 1px solid #7A5CFA;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.resetButton{
+    background-color: white;
+    color: #7A5CFA;
+}
+
+.submitButton{
+    background-color: #7A5CFA;
+    color: white;
+}
+
+@media (max-width: 759px) {
+    .formItemButton{
+      width: 100%;
+    }
+  }

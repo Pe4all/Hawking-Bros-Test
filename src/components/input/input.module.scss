@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../../../public/fonts/NotoSans.woff2);
+}
+
+@font-face{
+  font-family: 'Noto Sans SemiBold';
+  src: url(../../../public/fonts/NotoSans-SemiBold.woff2);
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.formItemlabel {
+  color: #666;
+  font-family: 'Noto Sans SemiBold';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.formItemInput {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  height: 56px;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 18px;
+  margin: 8px 0 0 0;
+}
+
+.formItemInfo,
+.warning {
+  margin-top: 8px;
+}
+
+.formItemInfo,
+.warning {
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.formItemInfo,
+.warning {
+  font-family: "Noto Sans";
+}
+
+.warning {
+  color: #eb5757;
+}
+
+.formItemInput:focus {
+  border: 2px solid #7a5cfa;
+  padding-left: 14px;
+}
+
+.formItemInput:invalid {
+  background-image: url(../../../public/icons/warning.svg);
+  background-position: 97.3%;
+  background-repeat: no-repeat;
+  border: 2px solid #eb5757;
+}
