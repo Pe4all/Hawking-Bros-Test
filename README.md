@@ -9,7 +9,7 @@ React + Redux + TypeScript + Vite
 
 ## Ссылка на деплой
 
-Проект развернут и доступен по ссылке: Демо проекта ()
+Проект развернут и доступен по ссылке: Демо проекта (https://hawking-bros-test.vercel.app/)
 
 ## Инструкция по использованию
 
@@ -19,7 +19,7 @@ React + Redux + TypeScript + Vite
 
 Чтобы склонировать проект, выполните следующую команду:
 
-git clone -
+git clone https://github.com/Pe4all/Hawking-Bros-Test.git
 
 ### Установка пакетов
 
